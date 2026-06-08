@@ -1,0 +1,41 @@
+name: Update profile README
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 0 * * *"
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Update SVGs
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          USER_NAME: ankitaww
+        run: python today.py
+
+      - name: Commit generated files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update profile README stats
+          file_pattern: dark-mode.svg light-mode.svg cache/*.txt
