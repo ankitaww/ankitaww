@@ -10,8 +10,8 @@ import hashlib
 # Account permissions: read:Followers, read:Starring, read:Watching
 # Repository permissions: read:Commit statuses, read:Contents, read:Issues, read:Metadata, read:Pull Requests
 # Issues and pull requests permissions not needed at the moment, but may be used in the future
-HEADERS = {'authorization': 'token '+ os.environ.get('ACCESS_TOKEN', '')}
-USER_NAME = os.environ.get('USER_NAME', 'skittlegit') 
+HEADERS = {'authorization': 'token '+ (os.environ.get('ACCESS_TOKEN') or '')}
+USER_NAME = os.environ.get('USER_NAME') or 'ankitaww' 
 QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0, 'contribution_graph': 0}
 
 
@@ -531,7 +531,7 @@ if __name__ == '__main__':
     OWNER_ID, acc_date = user_data
     formatter('account data', user_time)
     
-    age_data, age_time = perf_counter(daily_readme, datetime.datetime(2005, 10, 17))
+    age_data, age_time = perf_counter(daily_readme, datetime.datetime(2005, 9, 14))
     formatter('age calculation', age_time)
     
     total_loc, loc_time = perf_counter(loc_query, ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'], 7)

@@ -4,12 +4,12 @@
 
   <!-- masthead -->
   <circle cx="64" cy="54" r="3" fill="#3fb950"/>
-  <text x="76" y="58" font-size="11" letter-spacing="2" fill="#6e7681">GITHUB / @SKITTLEGIT</text>
+  <text x="76" y="58" font-size="11" letter-spacing="2" fill="#6e7681">GITHUB / @ANKITAWW</text>
   <text x="925" y="58" text-anchor="end" font-size="11" letter-spacing="2" fill="#6e7681">MAHINDRA UNIVERSITY · ’27</text>
 
   <!-- identity -->
-  <text x="60" y="112" font-size="38" font-weight="bold" fill="#f0f6fc" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">Deepak Aeleni</text>
-  <text x="60" y="138" font-size="14" fill="#c9d1d9" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">Full-stack &amp; Machine Learning Developer</text>
+  <text x="60" y="112" font-size="38" font-weight="bold" fill="#f0f6fc" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">Ankita Vemavarapu</text>
+  <text x="60" y="138" font-size="14" fill="#c9d1d9" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">ECM Student</text>
 
   <rect x="60" y="160" width="865" height="1" fill="#21262d"/>
 
@@ -52,8 +52,8 @@
   <rect x="60" y="467" width="865" height="1" fill="#21262d"/>
 
   <!-- footer -->
-  <text x="60" y="490" font-size="12" xml:space="preserve"><tspan fill="#8b949e">github.com/skittlegit</tspan><tspan fill="#30363d">   ·   </tspan><tspan fill="#8b949e">linkedin.com/in/deepakaeleni</tspan><tspan fill="#30363d">   ·   </tspan><tspan fill="#8b949e">deepakrdy7@gmail.com</tspan></text>
-  <text x="925" y="490" text-anchor="end" font-size="11" letter-spacing="1" xml:space="preserve"><tspan fill="#6e7681">UPTIME · </tspan><tspan fill="#8b949e" id="age_data">20 years, 7 months, 22 days</tspan></text>
+  <text x="60" y="490" font-size="12" xml:space="preserve"><tspan fill="#8b949e">github.com/ankitaww</tspan><tspan fill="#30363d">   ·   </tspan><tspan fill="#8b949e">linkedin.com/in/ankita-vemavarapu</tspan><tspan fill="#30363d">   ·   </tspan><tspan fill="#8b949e">ankitavem@gmail.com</tspan></text>
+  <text x="925" y="490" text-anchor="end" font-size="11" letter-spacing="1" xml:space="preserve"><tspan fill="#6e7681">UPTIME · </tspan><tspan fill="#8b949e" id="age_data">20 years, 8 months, 25 days</tspan></text>
 
   <rect x="0.5" y="0.5" width="984" height="529" rx="16" fill="none" stroke="#30363d" stroke-width="1"/>
 </svg>
