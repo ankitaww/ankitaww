@@ -15,7 +15,7 @@ async function main() {
   labels.forEach((label, i) => { const x = [24, 135, 246, 359, 445][i]; svg += `<text x="${x}" y="65" fill="#a9b1d6" font-family="sans-serif" font-size="14">${label}</text><text x="${x}" y="92" fill="#7aa2f7" font-family="monospace" font-size="20" font-weight="bold">${values[i]}</text>`; });
   svg += '<text x="24" y="122" fill="#a9b1d6" font-family="sans-serif" font-size="13">Contributions in the last year</text>';
   const days = calendar.weeks.flatMap(w => w.contributionDays).slice(-365);
-  days.forEach((d, i) => { const x = 24 + Math.floor(i / 7) * 9, y = 134 + (i % 7) * 7; svg += `<rect x="${x}" y="${y}" width="6" height="6" rx="1" fill="${d.contributionCount ? d.color : '#292e42'}"/>`; });
+  days.forEach((d, i) => { const x = 24 + Math.floor(i / 7) * 9, y = 134 + (i % 7) * 8; svg += `<rect x="${x}" y="${y}" width="7" height="7" rx="1" fill="${d.contributionCount ? d.color : '#292e42'}"/>`; });
   fs.writeFileSync('stats.svg', svg + '</svg>'); console.log(`Updated stats for ${username}: ${total} contributions, ${commits} commits this year`);
 }
 main().catch(e => { console.error(e); process.exit(1); });
