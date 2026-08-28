@@ -13,13 +13,15 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: node scripts/update-pet.js
+      - run: |
+          node scripts/update-pet.js
+          node scripts/update-stats.js
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_USERNAME: ankitaww
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add pet.svg
+          git add pet.svg stats.svg
           git diff --staged --quiet || git commit -m "chore: update pet mood"
           git push origin "HEAD:${{ github.ref_name }}"
