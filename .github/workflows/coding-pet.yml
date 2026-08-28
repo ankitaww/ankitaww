@@ -21,4 +21,4 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add coding-pet/pet.svg
           git diff --cached --quiet || git commit -m 'chore: update coding pet'
-          git push
+          git push origin "HEAD:${{ github.ref_name }}"
