@@ -6,4 +6,15 @@
   </picture>
 </a>
 -->
-![Coding Pet](coding-pet/pet.svg)
+<div align="center">
+
+<img src="pet.svg" width="120" alt="coding pet"/>
+
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api?username=ankitaww&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="150"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=ankitaww&theme=tokyonight&hide_border=true" height="150"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ankitaww&layout=compact&theme=tokyonight&hide_border=true" height="150"/>
+
+</div>
