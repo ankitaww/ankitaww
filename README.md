@@ -6,3 +6,4 @@
   </picture>
 </a>
 -->
+![Coding Pet](coding-pet/pet.svg)
