@@ -8,11 +8,6 @@
 -->
 <div align="center">
 
-<table>
-<tr>
-<td valign="middle"><img src="pet.svg" width="140" alt="coding pet"/></td>
-<td valign="middle"><img src="stats.svg?v=2" width="540" alt="GitHub activity statistics"/></td>
-</tr>
-</table>
+<img src="pet.svg" width="140" alt="coding pet"/>&nbsp;&nbsp;&nbsp;&nbsp;<img src="stats.svg?v=2" width="540" alt="GitHub activity statistics"/>
 
 </div>
