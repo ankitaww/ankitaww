@@ -11,7 +11,7 @@
 <table>
 <tr>
 <td valign="middle"><img src="pet.svg" width="140" alt="coding pet"/></td>
-<td valign="middle"><img src="stats.svg?v=1" width="500" alt="GitHub activity statistics"/></td>
+<td valign="middle"><img src="stats.svg?v=2" width="500" alt="GitHub activity statistics"/></td>
 </tr>
 </table>
 
