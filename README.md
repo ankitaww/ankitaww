@@ -12,6 +12,6 @@
 
 <br/>
 
-<img src="stats.svg" width="520" alt="GitHub activity statistics"/>
+<img src="stats.svg?v=1" width="520" alt="GitHub activity statistics"/>
 
 </div>
